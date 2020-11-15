@@ -1,0 +1,10 @@
+{
+  global:
+    extern "C++" {
+      MyClass::MyClass*;
+      MyClass::?MyClass*;
+      MyClass::PublicMethod*;
+    };
+  local:
+    *;
+};
